@@ -1,0 +1,10 @@
+.circle-container{
+  margin:auto;
+  width:45vh;
+  height:45vh;
+  margin-top:27.5vh;
+  border-radius:50%;
+  border:1px solid rgb(30, 30, 30);
+  box-shadow: 6px 6px 6px rgb(0,0,0, 0.3), -6px -6px 6px rgb(255, 255, 255, 0.01);
+  box-sizing: border-box;
+}

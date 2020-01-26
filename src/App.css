@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.time-setting{
+  margin-top:20vh;
+  transform:translate(0%, -50%)
+}

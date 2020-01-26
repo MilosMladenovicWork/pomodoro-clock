@@ -1,0 +1,13 @@
+.circle{
+  background-color:rgb(30, 30, 30);
+  width:40vh;
+  height:40vh;
+  margin:auto;
+  border-radius:50%;
+  box-shadow: 6px 6px 6px rgb(0,0,0, 0.3), -6px -6px 6px rgb(255, 255, 255, 0.01);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+
+}
