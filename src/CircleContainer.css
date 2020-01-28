@@ -8,3 +8,10 @@
   box-shadow: 6px 6px 6px rgb(0,0,0, 0.3), -6px -6px 6px rgb(255, 255, 255, 0.01);
   box-sizing: border-box;
 }
+
+@media (max-width: 1200px){
+  .circle-container{
+    width:90vw;
+    height:90vw;
+  }
+}
