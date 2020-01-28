@@ -46,9 +46,6 @@ function App() {
       setTime(Number(minutes) * 60 + Number(seconds))
     }
     if(play){
-      setTime((prevState) => {
-        return prevState - 1
-      })
       const tick = setInterval(() => {
         setTime((prevState) => {
           return prevState - 1
@@ -70,12 +67,14 @@ function App() {
       setStartTime(time)
     }
     if(time === 0){
+      if(startTime !== ''){
+      audio.current.play();
+      }
       setPlay(false)
       setStartTime('')
       setMinutes('')
       setSeconds('')
       setTime('');
-      audio.current.play();
     }
   }, [time])
 
