@@ -1,3 +1,5 @@
 .time-setting button{
   text-transform: capitalize;
+  display:flex;
+  flex-direction:column;
 }

@@ -1,0 +1,10 @@
+input{
+  background-color:rgb(30, 30, 30);
+  color:white;
+  font-size:30px;
+  border-color:rgb(40, 40, 40);
+  border-width: 4px;
+  outline: none;
+  text-align: center;
+  border-radius:10px;
+}
